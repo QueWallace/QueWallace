@@ -1,0 +1,7 @@
+public class Escaping {
+    public static void main(String... args) {
+        System.out.println("//////////////////////");
+        System.out.println("||||||Que Wallace|||||");
+        System.out.println("\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\");
+    }
+}
