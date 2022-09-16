@@ -1,0 +1,18 @@
+int main()
+{
+ int radius;
+ float pi=3.14
+ float AREA;
+ 
+ prin tf('Enter radius of circle: ");
+ scanf("%d", &radius);
+ if(radius > 0)
+ {
+     AREA = pi * radius * radius
+     printf("The ares of a circle with radius %d is %.2f" ,radius, AREA);
+     }
+     else{
+        printf("Invalid Entry, the radius should be positive!!");
+        }
+        return(0);
+        }
