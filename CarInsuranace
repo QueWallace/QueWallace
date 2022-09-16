@@ -1,0 +1,33 @@
+public class Car insurance{
+ public static void main (String[] args) {
+ 
+  int age;
+  int accidents;
+  int surcharge;
+  int base_ins_cost;
+  int total_ins;
+  Scanner sc = new Scanner(System.in);
+  System.out.println("Enter age of the driver: ");
+  age = sc.nextint();
+  if( accidents ==1){
+    surcharge=100;
+    total_ins=base_ins_cost+surcharge;
+    System.out.println("Total insurance is:" + total_ins)
+    }
+    if( accidents ==2){
+    surcharge=150;
+    total_ins=base_ins_cost+surcharge;
+    System.out.println("Total insurance is:" + total_ins)
+    }
+     if( accidents ==3){
+    surcharge=250;
+    total_ins=base_ins_cost+surcharge;
+    System.out.println("Total insurance is:" + total_ins)
+    }
+     if( accidents >=4){
+    surcharge=1000;
+    total_ins=base_ins_cost+surcharge;
+    System.out.println("Total insurance is:" + total_ins)
+    }
+    else{
+    Sysetm.out.println('Not Applicable");
