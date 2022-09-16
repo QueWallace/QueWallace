@@ -1,0 +1,15 @@
+import java.util.Scanner;
+public class Main{
+   public static void main(String[] args){
+       Scanner sc = new Scanner(System.in);
+       int rand=(int)(Math.random() *11);
+       System.out.print("Guess the number: ");
+       int guess = sc.nextint();
+       if(rand == guess){
+       System.out.println("Hooray you guessed number. ");
+       }
+       else{
+            Syste.out.println("You Lost!!");
+            }
+           }
+        }
